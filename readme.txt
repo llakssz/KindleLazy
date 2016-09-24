@@ -18,8 +18,8 @@ Here is a sample (and the default) config file:
 {
    "key_brightness_down" : [ 115 ],
    "key_brightness_up" : [ 114 ],
-   "key_next_page" : [ 104, 103, 105 ],
-   "key_prev_page" : [ 109, 108, 106 ],
+   "key_next_page" : [ 104, 103, 106 ],
+   "key_prev_page" : [ 109, 108, 105 ],
    "reverse_direction" : false
 }
 
