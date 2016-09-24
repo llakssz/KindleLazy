@@ -28,9 +28,6 @@ Beware of commas and other punctuation.
 
 Enter the keycodes for the keys you want to trigger the actions.
 
-I can see some keycodes here, I am not sure if some devices produce different ones.
-https://android.googlesource.com/platform/frameworks/base/+/cd92588/data/keyboards/Generic.kl
-
 For the config above, the key codes represent:
 
 104 = KEY_PAGEUP            
@@ -44,3 +41,7 @@ For the config above, the key codes represent:
 
 114 = VOLUME_DOWN
 115 = VOLUME_UP
+
+
+I can see some keycodes here, I am not sure if some devices produce different ones.
+https://android.googlesource.com/platform/frameworks/base/+/cd92588/data/keyboards/Generic.kl
