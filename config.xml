@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+	<information>
+		<name>KindleLazy</name>
+		<version>0.5</version>
+		<author>cearp</author>
+		<id>KindleLazy</id>
+	</information>
+	<menus>
+		<menu type="json" dynamic="false">menu.json</menu>
+	</menus>
+</extension>

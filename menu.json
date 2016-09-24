@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "name": "KindleLazy",
+      "items": [
+        {
+          "name": "Start KindleLazy",
+          "priority": 0,
+          "action": "bin/start.sh"
+        },
+        {
+          "name": "Stop KindleLazy",
+          "priority": 0,
+          "action": "bin/stop.sh"
+        },
+        {
+          "name": "(re)Start + Swap page turn direction",
+          "priority": 0,
+          "action": "bin/restart-flip.sh"
+        }
+      ]
+    }
+  ]
+}
