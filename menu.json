@@ -17,6 +17,16 @@
           "name": "(re)Start + Swap page turn direction",
           "priority": 0,
           "action": "bin/restart-flip.sh"
+        },
+        {
+          "name": "Rotate screen upside down (until next reboot)",
+          "priority": 0,
+          "action": "bin/start-upsidedown.sh"
+        },
+        {
+          "name": "Restore normal upright screen",
+          "priority": 0,
+          "action": "bin/stop-upsidedown.sh"
         }
       ]
     }
