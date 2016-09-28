@@ -17,5 +17,5 @@ sed -i 's/        Option      "Rotate"  "CCW"/        Option      "Rotate"  "CW"
 mount --bind /mnt/us/extensions/kindlelazy/bin/xorg.conf /var/local/xorg.conf
 mount -o remount,ro,bind /var/local/xorg.conf
 killall lxinit
-sleep 5
+sleep 10
 /mnt/us/extensions/kindlelazy/bin/xinput set-prop 'multitouch' 'Multitouch Device Orientation' 1
