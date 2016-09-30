@@ -3,29 +3,39 @@
     {
       "name": "KindleLazy",
       "items": [
+       {
+          "name": "*Insert device before starting KindleLazy*",
+          "action": "",
+          "exitmenu": false
+        },
         {
           "name": "Start KindleLazy",
-          "priority": 0,
           "action": "bin/start.sh"
         },
         {
+          "name": "Start KindleLazy (reversed page direction)",
+          "action": "bin/start-reverse.sh"
+        },
+        {
           "name": "Stop KindleLazy",
-          "priority": 0,
           "action": "bin/stop.sh"
         },
         {
-          "name": "(re)Start + Swap page turn direction",
-          "priority": 0,
-          "action": "bin/restart-flip.sh"
+          "name": "*The below actions stop KindleLazy...*",
+          "action": "",
+          "exitmenu": false
         },
         {
-          "name": "Rotate screen upside down (until next reboot)",
-          "priority": 0,
+          "name": "*Run KindleLazy afterwards if you want both*",
+          "action": "",
+          "exitmenu": false
+        },
+        {
+          "name": "Screen upside down (until reboot)",
           "action": "bin/start-upsidedown.sh"
         },
         {
-          "name": "Restore normal upright screen",
-          "priority": 0,
+          "name": "Stop upside down",
           "action": "bin/stop-upsidedown.sh"
         }
       ]

@@ -1,4 +1,4 @@
-KindleLazy 0.5 - cearp
+KindleLazy 0.9 - cearp
 
 Only tested on PW3, nothing else!
 
@@ -7,7 +7,7 @@ This should be improved later.
 
 There is no hotplugging, have the device inserted before starting. If the device is removed, this app may quit.
 
-The page turn direction can be reversed, so that your 'forward' button can still advance you to the next page.
+The page turn direction can be reversed (pass argument '-reverse'), so that your 'forward' button can still advance you to the next page.
 For example, with books that are 'right to left', where the next page is on the left, you would reverse the direction.
 
 The program will not work without a config file named 'config.json' in the same directory.
@@ -20,7 +20,7 @@ Here is a sample (and the default) config file:
    "key_brightness_up" : [ 114 ],
    "key_next_page" : [ 104, 103, 106 ],
    "key_prev_page" : [ 109, 108, 105 ],
-   "reverse_direction" : false
+   "key_wake" : [ 15 ]
 }
 
 Errors in the config file are not handled, it will probably crash.
@@ -42,6 +42,10 @@ For the config above, the key codes represent:
 114 = VOLUME_DOWN
 115 = VOLUME_UP
 
+15 = TAB
+
 
 I can see some keycodes here, I am not sure if some devices produce different ones.
 https://android.googlesource.com/platform/frameworks/base/+/cd92588/data/keyboards/Generic.kl
+
+It is best to run 'evtest /dev/input/mydevice', and press buttons and see what values are given.

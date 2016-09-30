@@ -3,5 +3,5 @@
    "key_brightness_up" : [ 115 ],
    "key_next_page" : [ 104, 103, 106 ],
    "key_prev_page" : [ 109, 108, 105 ],
-   "reverse_direction" : false
+   "key_wake" : [ 15 ]
 }
